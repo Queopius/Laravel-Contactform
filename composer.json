@@ -1,0 +1,36 @@
+{
+    "name": "queopius/laravel-contactform",
+    "description": "A contact form package to facilitate the life of the web developer.",
+    "type": "project",
+    "license": "Mit",
+    "authors": [
+        {
+            "name": "Queopius A. S.",
+            "email": "queopius@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5" 
+    },
+    "autoload": {
+        "psr-4": {
+            "Queopius\\LaravelContactform\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Queopius\\LaravelContactform\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Queopius\\LaravelContactform\\ContactFormServiceProvider"
+            ]            
+        }
+    },    
+    "minimum-stability": "dev"
+}
