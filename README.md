@@ -1,4 +1,4 @@
-# Laravel-Contactform
+# Laravel Contact Form
 
 [![Build Status](https://travis-ci.com/Queopius/Laravel-Contactform.svg?branch=master)](https://travis-ci.com/Queopius/Laravel-Contactform)
 
