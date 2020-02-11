@@ -33,7 +33,7 @@
                 "dev-master": "1.2.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
@@ -87,7 +87,7 @@
                 "dev-master": "1.2.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -156,7 +156,7 @@
                 "dev-master": "2.1.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Egulias\\EmailValidator\\": "EmailValidator"
@@ -209,7 +209,7 @@
         },
         "time": "2020-01-17T21:11:47+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "DeepCopy\\": "src/DeepCopy/"
@@ -259,7 +259,7 @@
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "classmap": [
                 "src/"
@@ -365,7 +365,7 @@
                 "dev-master": "2.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "phpDocumentor\\Reflection\\": "src/"
@@ -424,7 +424,7 @@
                 "dev-master": "5.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "phpDocumentor\\Reflection\\": "src"
@@ -477,7 +477,7 @@
                 "dev-master": "1.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "phpDocumentor\\Reflection\\": "src"
@@ -528,7 +528,7 @@
                 "dev-master": "1.10.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Prophecy\\": "src/Prophecy"
@@ -1574,7 +1574,7 @@
                 "dev-master": "1.13-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Ctype\\": ""
@@ -1636,7 +1636,7 @@
                 "dev-master": "1.13-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Intl\\Idn\\": ""
@@ -1698,7 +1698,7 @@
                 "dev-master": "1.13-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Mbstring\\": ""
@@ -1756,7 +1756,7 @@
                 "dev-master": "1.13-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Php72\\": ""
