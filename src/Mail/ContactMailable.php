@@ -33,9 +33,9 @@ class ContactMailable extends Mailable
      */
     public function build()
     {
-        return $this->markdown('contact.email')->with([
-            'message' => $this->message, 
-            'name'    => $this->name
+        return $this->markdown('laravel_contactform::contact.email')->with([            
+            'name'    => $this->name,
+            'message' => $this->message
         ]);
     }
 }

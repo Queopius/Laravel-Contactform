@@ -1,12 +1,13 @@
 @component('mail::message')
 # Introduction
 
-There is new query from {{ $name }}
+There is new query from {{$message}}
+<br>
 Message:
-{{ $message }}
+{{$name}}
 
 @component('mail::button', ['url' => ''])
-Button Text
+Go back to the web
 @endcomponent
 
 Thanks,<br>
